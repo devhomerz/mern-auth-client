@@ -8,9 +8,9 @@ import { isAuth } from './helpers';
 
 const Signup = () => {
   const [values, setValues] = useState({
-    name: 'homer',
-    email: 'this.homerz@gmail.com',
-    password: 'rrrrr',
+    name: '',
+    email: '',
+    password: '',
     buttonText: 'Submit'
   });
 
